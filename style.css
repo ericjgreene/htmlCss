@@ -1,0 +1,80 @@
+
+#analytics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#analytics button {
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin-top: 20px;
+
+}
+#date-selector button:active {
+  background-color: grey;
+}
+
+#date-selector {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#graph1 img {
+  width: 100%;
+}
+
+#overview > div {
+    border: 1px solid grey;
+}
+
+#overview div {
+  display: inline-block;
+/*   justify-content: space-around; */
+}
+
+div.overview-boxes {
+  width: 19vw;
+  text-align: center;
+}
+
+
+.overview-boxes h5 {
+  color: grey;
+}
+
+div.overview-boxes {
+  display: block;
+/*   border: 1px solid grey; */
+  margin:0;
+  padding:0;
+}
+.overview-boxes small {
+  font-size: 0.5em;
+  padding-bottom: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+h1 {
+  font-family: "comic sans", sans-serif;;
+  text-align: left;
+  font-size: 2em;
+}
+
+#geoitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid grey;
+}
